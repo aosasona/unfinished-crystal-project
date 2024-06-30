@@ -1,0 +1,17 @@
+name: noht_cr
+version: 0.1.0
+
+authors:
+  - Ayodeji O <97124713+aosasona@users.noreply.github.com>
+
+targets:
+  noht_cr:
+    main: src/noht_cr.cr
+
+crystal: ">= 1.12.2"
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
